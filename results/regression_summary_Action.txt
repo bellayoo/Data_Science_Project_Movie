@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Market Share Delta   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.027
+Date:                Thu, 19 Dec 2024   Prob (F-statistic):              0.320
+Time:                        03:19:49   Log-Likelihood:                -101.26
+No. Observations:                  28   AIC:                             206.5
+Df Residuals:                      26   BIC:                             209.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -2.1247      3.007     -0.707      0.486      -8.305       4.056
+GDP_growth_rate     0.9865      0.973      1.013      0.320      -1.015       2.988
+==============================================================================
+Omnibus:                        7.587   Durbin-Watson:                   1.830
+Prob(Omnibus):                  0.023   Jarque-Bera (JB):                9.581
+Skew:                          -0.386   Prob(JB):                      0.00831
+Kurtosis:                       5.760   Cond. No.                         5.63
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
